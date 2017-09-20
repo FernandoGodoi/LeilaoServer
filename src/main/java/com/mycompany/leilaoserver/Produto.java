@@ -45,7 +45,7 @@ public class Produto {
     }
     @Override
     public String toString(){
-        return "NOME:  " + this.nome + "    Preço inicial: "+ this.precoInicial;
+        return this.nome+";"+this.precoInicial+";"+this.caracteristica;
     }
     
 }
